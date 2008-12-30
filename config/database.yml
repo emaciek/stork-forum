@@ -1,0 +1,22 @@
+# This is a sample database file for the DataMapper ORM
+development: &defaults
+#       # These are the settings for repository :default
+#       o
+
+#development:
+#adapter:  sqlite3
+#dbfile: storkforum_development.db
+development:
+ adapter: sqlite3
+ database: db/development.sqlite3
+ timeout: 5000
+
+test:
+ adapter: sqlite3
+ database: db/test.sqlite3
+ timeout: 5000
+
+production:
+ adapter: sqlite3
+ database: db/production.sqlite3
+ timeout: 5000

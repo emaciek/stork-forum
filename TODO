@@ -1,0 +1,15 @@
+TODO:
+
+- Fix StorkForum.description and StorkForum.version
+- Fix LICENSE with your name
+- Fix Rakefile with your name and contact info
+- Add your code to lib/stork-forum.rb
+- Add your Merb rake tasks to lib/stork-forum/merbtasks.rb
+
+Remove anything that you don't need:
+
+- app/controllers/main.rb StorkForum::Main controller
+- app/views/layout/stork-forum.html.erb
+- spec/controllers/main_spec.rb controller specs
+- public/* any public files
+- stubs/* any stub files
